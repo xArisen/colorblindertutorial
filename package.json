@@ -7,11 +7,10 @@
     "ios": "react-native run-ios",
     "dev": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
     "tsc:check": "tsc",
     "lintFixAll": "eslint '**/*.{ts,tsx}'",
     "prettierFixAll": "prettier --write '**/*.{ts,tsx}'",
-    "format": "pnpm tsc && pnpm prettierFixAll && pnpm lintFixAll"
+    "format": "pnpm prettierFixAll && pnpm lintFixAll"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -28,13 +27,14 @@
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "@typescript-eslint/parser": "^7.9.0",
-    "eslint-plugin-prettier": "4.2.1",
     "babel-jest": "^29.6.3",
     "eslint": "^8.1.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.5.0",
+    "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.2",
     "jest": "^29.6.3",
     "metro": "^0.80.9",
     "prettier": "2.4.1",
