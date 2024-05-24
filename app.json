@@ -1,9 +1,11 @@
 {
   "name": "colorblindertutorial",
   "displayName": "colorblindertutorial",
-  "icon": "./assets/icon.png",
+  "expo": {
+    "icon": "./assets/images/icon.png"
+  },
   "splash": {
-    "image": "./assets/splash.png",
+    "image": "./assets/images/splash.png",
     "resizeMode": "contain",
     "backgroundColor": "#0a0a0a"
   }
