@@ -1,8 +1,14 @@
 {
   "name": "colorblindertutorial",
   "displayName": "colorblindertutorial",
+  "icon": "./assets/images/icon.png",
   "expo": {
-    "icon": "./assets/images/icon.png"
+    "android": {
+      "package": "com.cb.android"
+    },
+    "ios": {
+      "bundleIdentifier": "com.cb.ios"
+    }
   },
   "splash": {
     "image": "./assets/images/splash.png",
