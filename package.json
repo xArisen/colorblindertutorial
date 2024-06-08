@@ -13,14 +13,17 @@
     "format": "pnpm tsc && pnpm prettierFixAll && pnpm lintFixAll"
   },
   "dependencies": {
+    "@react-navigation/stack": "^6.3.29",
+    "expo": "~51.0.8",
     "react": "18.2.0",
     "react-native": "0.74.1",
-    "expo": "~51.0.8"
+    "react-native-gesture-handler": "~2.16.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@jest/globals": "^29.7.0",
     "@react-native/babel-preset": "0.74.83",
     "@react-native/metro-config": "0.74.83",
     "@react-native/typescript-config": "0.74.83",
@@ -35,7 +38,6 @@
     "eslint-plugin-jest": "^28.5.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "^7.34.1",
-    "@jest/globals": "^29.7.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "jest": "^29.6.3",
     "metro": "^0.80.9",
