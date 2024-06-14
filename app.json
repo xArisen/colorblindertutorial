@@ -1,7 +1,7 @@
 {
   "name": "main",
   "displayName": "colorblindertutorial",
-  "icon": "./assets/images/icon.png",
+  "icon": "src/assets/images/icon.png",
   "expo": {
     "android": {
       "package": "com.cb.android"
@@ -11,7 +11,7 @@
     }
   },
   "splash": {
-    "image": "./assets/images/splash.png",
+    "image": "src/assets/images/splash.png",
     "resizeMode": "contain",
     "backgroundColor": "#0a0a0a"
   }
