@@ -6,7 +6,7 @@ import Home from '../../screens/Home/Home'
 
 const Stack = createStackNavigator()
 
-const MyStack = () => {
+const AppStack = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
@@ -21,4 +21,4 @@ const MyStack = () => {
   )
 }
 
-export default MyStack
+export default AppStack
