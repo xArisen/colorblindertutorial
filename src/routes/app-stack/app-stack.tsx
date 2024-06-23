@@ -6,9 +6,15 @@ import Home from '../../screens/Home/Home'
 
 const Stack = createStackNavigator()
 
-const AppStack = () => {
+interface AppStackProps {
+  onReady: () => void
+}
+
+const AppStack = (props: AppStackProps) => {
+  const { onReady } = props
+
   return (
-    <NavigationContainer>
+    <NavigationContainer onReady={onReady}>
       <Stack.Navigator
         initialRouteName="Home"
         screenOptions={{
